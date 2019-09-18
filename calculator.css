@@ -1,0 +1,116 @@
+body {
+	font-family: sans-serif;
+	Background-color: #ededed;
+}
+body * {
+	box-sizing: border-box;
+}
+ul li {
+	margin-bottom: 10px;
+	list-style: none;
+}
+h1 {
+	border-left: 3px solid black;
+	border-bottom: 3px solid black;
+	max-width: 6em;
+	height: 4.125em;
+	line-height: 92px;
+
+	margin-top: 1%;
+
+	font-size: 64px;
+	color: rgb(0, 113, 188)
+}
+
+h2 {
+	font-size: 36px;
+}
+
+li {
+	font-size: 18px;
+}
+
+p {
+	font-size: 18px;
+}
+
+form {
+	border-left: 3px solid black;
+	border-bottom: 3px solid black;
+	width: 28em;
+
+
+	margin-left: 20%;
+	margin-top: 1%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+	float:left;
+
+	color: rgb(0, 146, 69);
+}
+
+section {
+	border-top: 3px solid black;
+	border-right: 3px solid black;
+	width: 21em;
+
+	margin-top: 1%;
+	margin-right: 16%;
+	padding-right: 1%;
+	float:right;
+
+
+	text-align: right;
+	color: rgb(0, 146, 69);
+}
+
+input {
+	padding: 1%;
+}
+
+input:hover {
+	background-color: lightgray;
+	border-color: rgb(0, 113, 188);
+}
+
+input:focus {
+	background-color: lightgray;
+	border-color: rgb(0, 113, 188);
+}
+
+
+.description {
+	border-top: 3px solid black;
+	border-right: 3px solid black;
+	width: 10em;
+
+	margin-top: -46%;
+	margin-right: 22%;
+	height: 8.5em;
+	width: 11.2em;
+	float: right;
+
+	color: rgb(0, 113, 188);
+	font-size: 30px;
+}
+
+
+
+button {
+	border-radius: 12px;
+
+	background-color: rgb(0, 104, 55);
+	font-size: 24px;
+}
+
+button:hover {
+	background-color: rgb(0, 113, 188);
+}
+
+
+.starting-val,
+.contribution-val,
+.final-val {
+	font-size: 26px;
+	color: rgb(0, 104, 55);
+}
